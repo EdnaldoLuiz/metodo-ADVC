@@ -1,0 +1,3 @@
+<h1 align=center> AWS Trusted Advisor </h1>
+
+O AWS Trusted Advisor faz recomendações que ajudam você a seguir as práticas recomendadas da AWS. O Trusted Advisor avalia a sua conta por meio de verificações. Essas verificações identificam formas de otimizar sua infraestrutura da AWS, aumentar a segurança e a performance, reduzir os custos gerais e monitorar as cotas de serviço. Depois, você pode seguir as recomendações da verificação para otimizar seus recursos e serviços.
