@@ -1,9 +1,3 @@
-<h1 align=center> Amazon EC2 - Provisionando seu primeiro servidor web </h1>
+<h1 align=center> Amazon EC2 </h1>
 
-<div align=center>
-    <img width="800px" src="./../../assets/imgs/labs/EC2/lab-parte-final.png">
-</div>
-
-<div align=center>
-    <img width="800px" src="./../../assets/imgs/labs/EC2/lab-resultado.png">
-</div>
+O Amazon EC2 é um serviço de computação em nuvem oferecido pela AWS que permite a criação e o gerenciamento de servidores virtuais na nuvem. Com o EC2, os usuários podem configurar instâncias de servidores de acordo com suas necessidades computacionais, escolhendo capacidade de processamento, memória, armazenamento e sistema operacional.
