@@ -1,0 +1,3 @@
+<h1 align=center> AWS Budgets </h1>
+
+O AWS Budgets é uma ferramenta que permite os usuários monitorarem e controlarem seus gastos, na plataforma da AWS. Estabelece limites personalizados para diferentes serviços, regiões ou para a conta como um todo. Além disso, oferece recursos de alerta, como notificações por e-mail ou Amazon Simple Notification Service (SNS), para informar os usuários quando os gastos atingem os níveis pré-definidos.
