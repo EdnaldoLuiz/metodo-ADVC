@@ -3,24 +3,12 @@
 <h2>Arquitetura do laboratório</h2>
 
 <div align=center>
-    <img width="800px" src="./../../../assets/imgs/labs/EC2/ec2-ebs.png">
+    <img width="800px" src="./../../../assets/imgs/labs/EC2/lab-2-ec2-arch.png">
 </div>
-
----
-
-<h2>Elastic Load Balancing (ELB)</h2>
-
-O Elastic Load Balancing (ELB) distribui automaticamente o tráfego de aplicações de entrada entre vários destinos e dispositivos virtuais em uma ou mais Zonas de Disponibilidade (AZs). 
-
-<h2>Auto Scaling</h2>
-
-Os Grupos do Auto Scaling da AWS é uma ferramenta fundamental para otimizar a escalabilidade e a resiliência em ambientes de nuvem. Este recurso permite a automação da adição ou remoção de instâncias EC2 conforme a demanda da aplicação. Ao configurar políticas baseadas em métricas específicas, como CPU ou utilização de recursos, o Auto Scaling garante que o número de instâncias esteja sempre alinhado com as necessidades do sistema. Além disso, o Auto Scaling pode ser integrado a um balanceador de carga, o Elastic Load Balancer (ELB), para distribuir o tráfego de maneira uniforme e manter a alta disponibilidade da aplicação.
-
----
 
 <h2> Conteúdo do laboratório </h2>
 
-Neste laboratório, você aprenderá a adicionar e montar um volume EBS em uma instância Linux.
+Neste laboratório você irá implementar na prática os conceitos de como subir um servidor web, balanceamento de cargas e de auto scaling.
 
 <h2>Tarefas a serem executadas</h2>
 
@@ -37,9 +25,13 @@ Neste laboratório, você aprenderá a adicionar e montar um volume EBS em uma i
 <h2>Resultado</h2>
 
 <div align=center>
-    <img width="800px" src=">
+    <img width="800px" src="./../../../assets/imgs/labs/EC2/lab-2-resultado-1.png">
 </div>
 
 <div align=center>
-    <img width="800px" src="">
+    <img width="800px" src="./../../../assets/imgs/labs/EC2/lab-2-resultado-2.png">
+</div>
+
+<div align=center>
+    <img width="800px" src="./../../../assets/imgs/labs/EC2/lab-2-resultado-3.png">
 </div>
