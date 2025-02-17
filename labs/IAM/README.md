@@ -10,3 +10,6 @@ As políticas do AWS Identity and Access Management (IAM) desempenham um papel f
 
 As funções do IAM são uma forma de delegar o acesso a recursos da AWS a entidades confiáveis, sem precisar compartilhar suas credenciais de longa duração ou criar contas de usuário específicas. As funções do IAM consistem em uma política de confiança e uma política de permissão, que definem quem pode assumir a função e quais recursos pode acessar. As funções do IAM usam credenciais temporárias geradas pelo serviço AWS Security Token Service (STS). As funções do IAM podem ser usadas para diversos casos de uso, como conceder acesso a usuários de outra conta da AWS, usuários federados, aplicações ou serviços da AWS.
 
+<h2 align=center> Política de Senhas do IAM (Identity and Access Management) </h2>
+
+A Política de Senhas do IAM (Identity and Access Management) na AWS desempenha um papel fundamental na segurança dos recursos em nuvem. Essa política estabelece diretrizes e requisitos para a criação e gerenciamento de senhas robustas para os usuários dentro de uma conta AWS. Com foco na prevenção de acessos não autorizados, a política define critérios como comprimento mínimo da senha, uso de caracteres especiais, números e letras maiúsculas e, além disso, ela força a prática de atualizações regulares de senhas para mitigar riscos de segurança.
