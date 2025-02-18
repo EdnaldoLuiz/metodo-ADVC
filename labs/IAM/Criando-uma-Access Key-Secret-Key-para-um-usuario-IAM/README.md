@@ -3,7 +3,7 @@
 <h2>Arquitetura do laboratório</h2>
 
 <div align=center>
-    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-2-arch.png">
+    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-5-arch.png">
 </div>
 
 <h2> Conteúdo do laboratório </h2>
@@ -19,5 +19,5 @@ Neste laboratório você aprenderá a criar um usuário do IAM e criar uma chave
 <h2>Resultado</h2>
 
 <div align=center>
-    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-2-resultado.png">
+    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-5-resultado.png">
 </div>
