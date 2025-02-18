@@ -13,3 +13,11 @@ As funções do IAM são uma forma de delegar o acesso a recursos da AWS a entid
 <h2 align=center> Política de Senhas do IAM (Identity and Access Management) </h2>
 
 A Política de Senhas do IAM (Identity and Access Management) na AWS desempenha um papel fundamental na segurança dos recursos em nuvem. Essa política estabelece diretrizes e requisitos para a criação e gerenciamento de senhas robustas para os usuários dentro de uma conta AWS. Com foco na prevenção de acessos não autorizados, a política define critérios como comprimento mínimo da senha, uso de caracteres especiais, números e letras maiúsculas e, além disso, ela força a prática de atualizações regulares de senhas para mitigar riscos de segurança.
+
+<h2 align=center> Access keys para usuários do IAM <h2>
+
+As chaves de acesso são credenciais de longo prazo para um usuário do IAM. Você pode usar chaves de acesso para assinar solicitações programáticas na AWS CLI ou na API da AWS (diretamente ou usando o SDK da AWS).
+
+Observação: não é indicado a utilização de chave de acesso direto no código, pois não é uma boa prática de segurança.
+
+Importante: como prática recomendada, use credenciais de segurança temporárias (como perfis do IAM), em vez de criar credenciais de longo prazo, como as chaves de acesso. Antes de criar chaves de acesso, avalie as alternativas às chaves de acesso de longo prazo. Gerencie suas chaves de acesso com segurança. Não forneça suas chaves de acesso a terceiros não autorizados, mesmo para ajudar a encontrar os identificadores de sua conta . Ao fazer isso, você poderá conceder a alguém acesso permanente à sua conta. É uma boa prática de segurança fazer a rotatividade de suas chaves de acesso a cada 90 dias.
