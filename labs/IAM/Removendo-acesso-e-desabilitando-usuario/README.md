@@ -22,5 +22,9 @@ Neste laboratório você irá aprender a criar um usuário no IAM, liberar e rem
 <h2>Resultado</h2>
 
 <div align=center>
-    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-6-resultado.png">
+    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-6-resultado-1.png">
+</div>
+
+<div align=center>
+    <img width="800px" src="./../../../assets/imgs/labs/IAM/lab-6-resultado-2.png">
 </div>
