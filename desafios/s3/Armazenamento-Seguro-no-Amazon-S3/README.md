@@ -1,22 +1,51 @@
-A Dan's Coffee possui algumas rotinas internas de backup e precisa armazenar um arquivo de backup de forma segura fora da empresa.
+<h1 align=center> 📂 Desafio: Armazenamento Seguro no Amazon S3 </h1>
 
-Após receber algumas dicas sobre o uso da Nuvem, a empresa decide contratar um consultor para apoiar na criação de um bucket do S3 seguindo as boas práticas de segurança e armazenar o objeto de forma privada e segura.
+<div>
+    <img src="../../../assets/imgs/desafios/s3/Armazenamento-Seguro-no-Amazon-S3/desafio.png">
+</div>
 
-Esse é um teste (uma POC - Prova de conceito), que a empresa pretende fazer antes de utilizar alguma ferramenta para automatizar o backup.
+<h2 align=center> 📌 Visão Geral </h2>
+A **Dan's Coffee** busca armazenar seus backups de forma segura na nuvem, utilizando o **Amazon S3** como serviço de armazenamento. O objetivo principal é garantir que os arquivos sejam protegidos contra acessos não autorizados e estejam criptografados.
 
-A verdade é que o time interno da empresa não está muito confiante com a segurança dos dados na nuvem, o time não conhece Cloud e AWS e querem fazer testes antes de decidirem pela migração dos backups para nuvem.
+Este desafio faz parte de uma **Prova de Conceito (PoC)** para validar a viabilidade da nuvem como solução definitiva para backup da empresa.
 
-Seu desafio é provisionar esse ambiente de forma correta, seguindo as boas práticas, para que a validação do time interna seja favorável para a continuidade do projeto de migração dos backups para a nuvem.
+🔹 **Requisitos:**
+- O arquivo deve ser armazenado no **Amazon S3**;
+- Deve estar **criptografado**;
+- O acesso ao arquivo deve ser **restrito (privado)**;
+- O bucket deve estar na região **us-east-1 (N. Virginia)**;
+- O prazo de entrega é de **2 horas**.
 
-Hora do desafio:
+<h2 align=center>  🚀 Implementação </h2>
 
-Você como Arquiteto de Soluções precisa armazenar o arquivo de backup da empresa Dan's Coffee de forma segura utilizando a nuvem.
+<h3 align=center> 1️⃣ Criar o Bucket no Amazon S3
 
-Os requisitos informados a você são:
-- Utilizar o serviço Amazon S3
-- O arquivo deve estar criptografado
-- O arquivo não pode ser público
-- A região utilizada deve ser N. Virginia (us-east-1)
-- O prazo de entrega da tarefa é de até 2 horas.
+1. Acesse o console da AWS e vá para o **Amazon S3**.
+2. Clique em **Criar bucket** e defina um nome único.
+3. Escolha a região **N. Virginia (us-east-1)**.
+4. **Desative** o acesso público ao bucket.
+5. **Habilite** a criptografia com AWS-KMS ou AES-256.
+6. Finalize a criação do bucket.
 
-Link para o arquivo de backup que deve ser armazenado no S3: https://repo-desafios.danrezende.com/backup-ultra-secreto.zip
+<h3 align=center> 2️⃣ Upload do Arquivo com Segurança <h3>
+
+<div>
+    <img src="../../../assets/imgs/desafios/s3/Armazenamento-Seguro-no-Amazon-S3/resultado-1.png">
+</div>
+
+1. No console do **Amazon S3**, acesse o bucket criado.
+2. Clique em **Upload** e selecione o arquivo `backup-ultra-secreto.zip`.
+3. Marque a opção **criptografar** com AES-256 ou KMS.
+4. Finalize o upload garantindo que o arquivo não está público.
+
+<h3 align=center> 3️⃣ Validação de Segurança <h3>
+
+Para validar que o arquivo **não é acessível publicamente**, tente acessá-lo via URL pública. O retorno deve ser **Access Denied**.
+
+<div>
+    <img src="../../../assets/imgs/desafios/s3/Armazenamento-Seguro-no-Amazon-S3/erro-acesso-publico.png">
+</div>
+
+<h2 align=center>  🏆 Conclusão </h2>
+
+A configuração correta do **Amazon S3** garante que os backups da **Dan's Coffee** estejam protegidos e acessíveis somente para usuários autorizados. Essa PoC permite que a empresa valide a segurança antes de migrar definitivamente para a nuvem.
