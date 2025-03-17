@@ -51,10 +51,6 @@ runcmd:
 3. Associar essa tabela às **subnets públicas**.
 4. **Habilitar a atribuição automática de IP público** nas subnets públicas.
 
-<div>
-    <img src="../../../assets/imgs/desafios/ec2/Provisionar-um-ambiente-web-em-EC2/resultado-1.jpeg">
-</div>
-
 <h3 align=center> 3️⃣ Criar e Configurar a Instância EC2 </h3>
 
 1. Criar uma **EC2 (t2.micro, Amazon Linux)** na **subnet pública**.
