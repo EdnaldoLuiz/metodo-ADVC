@@ -81,7 +81,7 @@ runcmd:
 3. Verificar se a página do projeto web está carregando corretamente.
 
 <div>
-    <img src="../../../assets/imgs/desafios/ec2/Provisionar-um-ambiente-web-em-EC2/resultado-3.jpeg">
+    <img src="../../../assets/imgs/desafios/ec2/Provisionar-um-ambiente-web-em-EC2/resultado-3.png">
 </div>
 
 <h2 align=center> 🏆 Conclusão </h2>
