@@ -1,7 +1,7 @@
 <h1 align=center> 📂 Desafio: Provisionamento de Ambiente Web na AWS </h1>
 
 <div>
-    <img src="../../../assets/imgs/desafios/ec2/Provisionamento-Ambiente-Web/desafio.png">
+    <img src="../../../assets/imgs/desafios/ec2/Provisionar-um-ambiente-web-em-EC2/desafio.png">
 </div>
 
 <h2 align=center> 📌 Visão Geral </h2>
@@ -52,7 +52,7 @@ runcmd:
 4. **Habilitar a atribuição automática de IP público** nas subnets públicas.
 
 <div>
-    <img src="../../../assets/imgs/desafios/ec2/Provisionamento-Ambiente-Web/rotas-config.png">
+    <img src="../../../assets/imgs/desafios/ec2/Provisionar-um-ambiente-web-em-EC2/resultado-1.jpeg">
 </div>
 
 <h3 align=center> 3️⃣ Criar e Configurar a Instância EC2 </h3>
