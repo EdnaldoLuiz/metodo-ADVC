@@ -1,0 +1,3 @@
+AWS Secrets Manager
+
+O AWS Secrets Manager é um serviço de gerenciamento de segredos na Amazon Web Services (AWS) que oferece uma solução segura e escalável para armazenar, recuperar e gerenciar informações sensíveis, como credenciais de banco de dados, tokens de API e outras chaves de acesso. Ele simplifica o ciclo de vida desses segredos, permitindo a rotação automática para melhorar a segurança e o controle de acesso granular para garantir que apenas usuários autorizados possam recuperar informações confidenciais.
