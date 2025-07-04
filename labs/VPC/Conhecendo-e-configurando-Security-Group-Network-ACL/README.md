@@ -5,7 +5,7 @@
 <div align=center>
     <img width="800px" src="arquitetura.png">
 </div>
-54.242.82.163
+
 <h2> Conteúdo do laboratório </h2>
 
 Neste laboratório iremos aprender a trabalhar com grupos de segurança e Network ACL.
