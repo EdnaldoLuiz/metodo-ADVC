@@ -74,7 +74,3 @@ Neste laboratório você aprenderá a habilitar o versionamento no S3.
 <div align=center>
     <img width="800px" src="resultado-1.png">
 </div>
-
-<div align=center>
-    <img width="800px" src="resultado-2.png">
-</div>
