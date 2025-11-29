@@ -24,7 +24,3 @@ Neste laboratório, iremos aprender a criar e configurar um função no AWS Lamb
 <div align=center>
     <img width="800px" src="resultado-1.png">
 </div>
-
-<div align=center>
-    <img width="800px" src="resultado-2.png">
-</div>
