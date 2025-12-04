@@ -25,3 +25,11 @@ Neste laboratório iremos aprender como criar um tópico no SNS, inscrever um e-
 <div align=center>
     <img width="800px" src="resultado-1.png">
 </div>
+
+<div align=center>
+    <img width="800px" src="resultado-2.png">
+</div>
+
+<div align=center>
+    <img width="800px" src="resultado-3.png">
+</div>
