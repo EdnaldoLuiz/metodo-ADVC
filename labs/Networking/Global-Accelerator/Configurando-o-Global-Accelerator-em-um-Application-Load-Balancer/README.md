@@ -29,3 +29,11 @@ Neste laboratório, você fará a integração do Global Accelerator com um Appl
 <div align=center>
     <img width="800px" src="resultado-2.png">
 </div>
+
+<div align=center>
+    <img width="800px" src="resultado-3.png">
+</div>
+
+<div align=center>
+    <img width="800px" src="resultado-4.png">
+</div>
