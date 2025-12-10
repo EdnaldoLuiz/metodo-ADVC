@@ -1,0 +1,35 @@
+{
+    "name": "lab-codebuild",
+    "source": {
+        "type": "CODECOMMIT",
+        "location": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/meuRepositorio"
+    },
+    "artifacts": {
+        "type": "NO_ARTIFACTS"
+    },
+    "environment": {
+        "type": "LINUX_CONTAINER",
+        "image": "aws/codebuild/standard:5.0",
+        "computeType": "BUILD_GENERAL1_SMALL",
+        "environmentVariables": [
+        {
+            "name": "AWS_DEFAULT_REGION",
+            "value": "us-east-1"
+        },
+        {
+            "name": "AWS_ACCOUNT_ID",
+            "value": "387984290425"
+        },
+        {
+            "name": "IMAGE_REPO_NAME",
+            "value": "lab-codebuild"
+        },
+        {
+            "name": "IMAGE_TAG",
+            "value": "latest"
+        }
+        ],
+        "privilegedMode": true
+    },
+    "serviceRole": "arn:aws:iam::387984290425:role/funcao-lab-advc"
+}
