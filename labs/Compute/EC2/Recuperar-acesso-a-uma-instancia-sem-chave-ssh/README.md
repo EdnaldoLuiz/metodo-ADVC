@@ -27,10 +27,3 @@ Neste laboratório, iremos aprender a criar uma instância EC2 em uma subnet pú
 <div align=center>
     <img width="800px" src="resultado-1.png">
 </div>
-#cloud-config
-cloud_final_modules:
-- [users-groups, once]
-users:
-  - name: ec2-user
-    ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsKwdEYl27AgV1ZA8+AAm6wOxo7aFSlYO+sNdIeYCCxF2kcsJX/cTlfjPIPkacEfq67thEtzmM4RT6U3TFiHKI0e4AtSK4B9wkRS8qeIgdxh/hgAt6QNrgQeAERiHqgY9EHrKwLoNrDf2A9IM3L1XTR6yvVgnhkptSv3ZA34oovJkh7xFFa+9xn+LFRvfvUpzUPY1Wm/pNGOi8u7mwBist7+WSAw6BLE2pGX1AKH6UovNNeiGtDt2pkUGE3osrM5MMw+5IwikssoZltHUtKEMeCtjbxevsrzC5prQ2LnR8wJR/jwF1caezfK75xBvKyAOdVAqV8KkkdAL9g37gi5Gt
