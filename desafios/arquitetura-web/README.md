@@ -1,4 +1,4 @@
-## Arquitetura AWS — migração da VM para ambiente escalável e Multi-AZ
+# Arquitetar e desenhar diagrama da solução para um site web em alta disponibilidade
 
 <div align=center>
     <img src="aws-web-app.png" width="80%">
