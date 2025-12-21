@@ -1,5 +1,9 @@
 <h1 align=center> Desafio da Alta Disponibilidade com EC2 + ALB + EC2 Auto Scaling </h1>
 
+<div align=center>
+    <img width="800px" src="arquitetura.png">
+</div>
+
 <h2> Amazon EC2 </h2>
 
 O Amazon Elastic Compute Cloud (Amazon EC2) oferece a plataforma de computação mais ampla e aprofundada, com mais de 750 instâncias e opções de processadores, armazenamentos, redes, sistemas operacionais e modelos de compras mais recentes para ajudar você a atender melhor as necessidades do seu workload.

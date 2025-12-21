@@ -1,5 +1,9 @@
 <h1 align=center> Amazon EC2 - Configurando comunicação segura entre duas instâncias </h1>
 
+<div align=center>
+    <img width="800px" src="arquitetura.png">
+</div>
+
 <h2> Grupos De Segurança </h2>
 
 Na Amazon Web Services (AWS), os grupos de segurança são um componente fundamental para o gerenciamento da segurança de instâncias dentro de uma Virtual Private Cloud (VPC). Cada instância em uma VPC pode ser associada a um ou mais grupos de segurança, que atuam como firewalls virtuais, controlando o tráfego de entrada e saída. Esses grupos são configurados com regras que especificam quais tipos de tráfego são permitidos ou negados. As regras do grupo de segurança são baseadas em portas e protocolos, permitindo um controle granular sobre o acesso à instância. Essa abordagem de segurança baseada em grupos simplifica a administração, pois as regras são aplicadas automaticamente a todas as instâncias associadas ao grupo. Além disso, as alterações nas configurações dos grupos de segurança são refletidas instantaneamente, proporcionando uma segurança dinâmica e flexível para ambientes na nuvem.

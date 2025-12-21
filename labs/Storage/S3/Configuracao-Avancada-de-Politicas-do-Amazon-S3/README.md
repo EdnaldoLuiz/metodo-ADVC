@@ -1,5 +1,9 @@
 <h1 align=center> Amazon S3 - Configuração Avançada de Políticas do Amazon S3 </h1>
 
+<div align=center>
+    <img width="800px" src="arquitetura.png">
+</div>
+
 <h2> Amazon S3 </h2>
 
 O Amazon S3 (Simple Storage Service) é um serviço de armazenamento de objetos altamente escalável, durável e seguro oferecido pela Amazon Web Services (AWS).

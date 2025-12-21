@@ -1,5 +1,9 @@
 <h1 align=center> Configurando scripts na inicialização de uma EC2 </h1>
 
+<div align=center>
+    <img width="800px" src="arquitetura.png">
+</div>
+
 <h2> Amazon EC2 </h2>
 
 O Amazon EC2 é um serviço de computação em nuvem oferecido pela AWS que permite a criação e o gerenciamento de servidores virtuais na nuvem. Com o EC2, os usuários podem configurar instâncias de servidores de acordo com suas necessidades computacionais, escolhendo capacidade de processamento, memória, armazenamento e sistema operacional.
